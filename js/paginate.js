@@ -1,4 +1,4 @@
-——————/**
+/**
  * App-like page pager for RPGym — modeled directly on the reference
  * (nitais-brand-vault.base44.app), which does NOT use native document
  * scrolling at all: #pager is a fixed 100vh viewport with the content
