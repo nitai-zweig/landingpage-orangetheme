@@ -621,11 +621,21 @@ a {
    the rows below it). A fixed height removes any content dependency. */
 .grid-row-3 .placeholder {
   aspect-ratio: auto;
-  height: 11rem;
+  height: 10rem;
 }
 
 .grid-row-3 .card {
-  padding: 1.15rem;
+  padding: 1rem;
+}
+
+/* A bit more breathing room between the fixed nav and this page's
+   title — nudged down slightly per feedback that it sat too close to
+   the header. Scoped to this page only (not the how-it-works section
+   head) since only this page's spacing was flagged. Kept small so it
+   doesn't reintroduce the native-scrollbar overflow this page was
+   already flirting with at 100vh. */
+#classes .section-head {
+  margin-top: 0.6rem;
 }
 
 /* Below a certain width, a wrapping/stacked grid would make a card
